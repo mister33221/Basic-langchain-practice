@@ -1,9 +1,9 @@
 import os
 from langchain_community.utilities import SerpAPIWrapper
 from langchain.agents import Tool
-import get_key
+import keys
 
-key=get_key.get_key("SERPAPI_API_KEY")
+key=keys.get_key("SERPAPI_API_KEY")
 
 # SerpAPI 是一個實時 API，用於訪問 Google 搜索結果。
 # 它處理代理、解決驗證碼，並為您解析所有豐富的結構化數據1。

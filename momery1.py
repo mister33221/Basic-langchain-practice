@@ -1,8 +1,8 @@
 from langchain_openai import ChatOpenAI
 from langchain.chains import ConversationChain
-import get_key
+import keys
 
-key=get_key.get_key("OPENAI_KEY")
+key=keys.get_key("OPENAI_KEY")
 
 llm = ChatOpenAI(api_key=key)
 

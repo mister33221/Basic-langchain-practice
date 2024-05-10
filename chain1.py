@@ -5,9 +5,9 @@ from langchain_openai import ChatOpenAI
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
-import get_key
+import keys
 
-key=get_key.get_key("OPENAI_KEY")
+key=keys.get_key("OPENAI_KEY")
 
 llm = ChatOpenAI(
     model="gpt-3.5-turbo",

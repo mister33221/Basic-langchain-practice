@@ -3,9 +3,9 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-import get_key
+import keys
 
-key=get_key.get_key("OPENAI_KEY")
+key=keys.get_key("OPENAI_KEY")
 
 # Create a prompt template Way 2
 prompt = PromptTemplate(

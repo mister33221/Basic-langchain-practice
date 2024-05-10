@@ -4,9 +4,9 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 # The open ai response can be parsed using the StrOutputParser class from the langchain_core.output_parsers module.
 from langchain_core.output_parsers import StrOutputParser
-import get_key
+import keys
 
-key=get_key.get_key("OPENAI_KEY")
+key=keys.get_key("OPENAI_KEY")
 
 # Set a predefined system template
 system_template = "You are a world class technical documentation writer."

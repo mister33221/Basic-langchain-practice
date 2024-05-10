@@ -1,8 +1,8 @@
 # 使用 langchain_openai 模組中的 ChatOpenAI 類別
 from langchain_openai import ChatOpenAI
-import get_key
+import keys
 
-key=get_key.get_key("OPENAI_KEY")
+key=keys.get_key("OPENAI_KEY")
 
 # ChatOpenAI 有很多參數可以使用，可以參考[這裡](https://api.python.langchain.com/en/latest/chat_models/langchain_openai.chat_models.base.ChatOpenAI.html)
 # openai_api_key: Optional[SecretStr] = None (alias 'api_key') 要放入 OpenAI API Key
