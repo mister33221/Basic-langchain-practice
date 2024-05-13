@@ -41,7 +41,7 @@ https://github.com/Heng-xiu/Attack_On_LangChain_Learning_Path.git
 
 ## LangChain 入門的五個基本技巧
 
-#### Model I/O components 介紹
+### Model I/O components 介紹
 
 Model I/O components 是 LangChain 的基本元件，有兩種常見的原件
 - [model-LLMs](https://python.langchain.com/docs/modules/model_io/llms/)
@@ -53,7 +53,7 @@ Model I/O components 是 LangChain 的基本元件，有兩種常見的原件
 
 - Prompt
 
-##### 範例
+#### 範例
 1. 安裝 langchain-openai
 > `--user` 參數是為了安裝在使用者的目錄下，避免需要 root 權限，或是你也可以使用 root 權限安裝
 ```bash
@@ -65,18 +65,19 @@ pip install langchain-openai --user
     - prompt-template1.py
     - prompt-template2.py
 
-#### [Chain composition](https://python.langchain.com/v0.1/docs/modules/chains/) 介紹
+### [Chain composition](https://python.langchain.com/v0.1/docs/modules/chains/) 介紹
 
-#### Agent
+### Agent
 
-#### Tool
+### Tool
 
-##### [SerpAPI Tool](https://python.langchain.com/v0.1/docs/integrations/tools/serpapi/)
+#### [SerpAPI Tool](https://python.langchain.com/v0.1/docs/integrations/tools/serpapi/)
 
 1. 安裝 google-search-results
 ```bash
 pip install google-search-results --user
 ```
 
-#### Memory: 賦予 Chain 與 Agents 記憶
+### Memory: 賦予 Chain 與 Agents 記憶
 
+## [Talk with microsoft word](https://python.langchain.com/v0.1/docs/integrations/document_loaders/microsoft_word/)
